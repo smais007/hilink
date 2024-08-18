@@ -83,3 +83,52 @@ export const SOCIALS = {
     "/wordpress.svg",
   ],
 };
+
+export const TIERS = [
+  {
+    name: "Free Plan",
+    id: "free-plan",
+    href: "#",
+    priceMonthly: "$0.00",
+    description: "Perfect for casual adventurers.",
+    features: [
+      "Offline map",
+      "Adventure planning tools",
+      "Community Access",
+      "Basic Trail Information",
+    ],
+    mostPopular: false,
+  },
+  {
+    name: "Pro Plan",
+    id: "pro-plan",
+    href: "#",
+    priceMonthly: "$9.99",
+    description: "Ideal for frequent adventurers.",
+    features: [
+      " Advanced Offline Maps",
+      "Augmented reality guidance",
+      "Exclusive Community Content",
+      "Realtime Alert",
+      "Priority Support",
+    ],
+    mostPopular: true,
+  },
+  {
+    name: "Premium Plan",
+    id: "prem-plan",
+    href: "#",
+    priceMonthly: "$19.99",
+    description:
+      "Get the full Hilink experience with personalized trip planning.",
+    features: [
+      "Personalized Trip Planning",
+      " Unlimited Access to New Features",
+      "Enhanced Augmented Reality",
+      "VIP Community Access",
+      "Comprehensive Trail Information",
+      "Customizable Alerts and Notifications",
+    ],
+    mostPopular: false,
+  },
+];
